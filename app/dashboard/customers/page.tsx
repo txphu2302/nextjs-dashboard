@@ -18,5 +18,5 @@ export default async function Page(props: {
     const query = searchParams?.query || '';
     const currentPage = Number(searchParams?.page) || 1;
     const customers = await fetchFilteredCustomers(query);
-    return <CustomersTable customers={customers} query={query} currentPage={currentPage} />;
+    return <CustomersTable customers={customers} />;
 }
