@@ -1,6 +1,12 @@
 import Form from '@/app/ui/invoices/create-form';
 import Breadcrumbs from '@/app/ui/invoices/breadcrumbs';
 import { fetchCustomers } from '@/app/lib/data';
+
+export const metadata: Metadata = {
+  title: 'Create Invoice',
+  description: 'Create a new invoice in the Acme Dashboard.',
+  metadataBase: new URL('https://nextjs-dashboard-kappa-coral-54.vercel.app/dashboard/invoices'),
+};
  
 export default async function Page() {
   const customers = await fetchCustomers();

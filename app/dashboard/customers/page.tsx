@@ -1,10 +1,7 @@
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: {
-    template: '%s | Acme Dashboard',
-    default: 'Customers | Acme Dashboard',
-  },
+  title: 'Customers',
   description: 'Manage your customers in the Acme Dashboard.',
   metadataBase: new URL('https://nextjs-dashboard-kappa-coral-54.vercel.app/dashboard/customers'),
 };

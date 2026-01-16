@@ -4,10 +4,7 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: {
-    template: '%s | Acme Dashboard',
-    default: 'Login | Acme Dashboard',
-  },
+  title: 'Login',
   description: 'Login to access the Acme Dashboard.',
   metadataBase: new URL('https://nextjs-dashboard-kappa-coral-54.vercel.app/login'),
 };

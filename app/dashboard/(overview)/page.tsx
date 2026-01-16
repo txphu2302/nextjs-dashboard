@@ -8,10 +8,7 @@ import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardSkeleton } from '@/ap
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: {
-    template: '%s | Acme Dashboard',
-    default: 'Acme Dashboard',
-  },
+  title: 'Dashboard',
   description: 'Overview of your dashboard.',
   metadataBase: new URL('https://nextjs-dashboard-kappa-coral-54.vercel.app/dashboard'),
 };

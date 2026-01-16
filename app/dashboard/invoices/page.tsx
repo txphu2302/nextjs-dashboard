@@ -10,10 +10,7 @@ import { fetchInvoicesPages } from '@/app/lib/data';
 import { Metadata } from 'next';
  
 export const metadata: Metadata = {
-  title: {
-    template: '%s | Acme Dashboard',
-    default: 'Invoices | Acme Dashboard',
-  },
+  title: 'Invoices',
   description: 'Manage your invoices in the Acme Dashboard.',
   metadataBase: new URL('https://nextjs-dashboard-kappa-coral-54.vercel.app/dashboard/invoices'),
 };
